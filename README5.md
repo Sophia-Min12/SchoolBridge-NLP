@@ -1,7 +1,7 @@
 ### 카테고리 분류 담당-경이님
 6개 카테고리 {`일정`, `준비물`, `제출`, `비용`, `건강·안전`, `기타`}
 
-# 주어진 input data: C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\data\20260509\notice_sample_v6_2_20260509.csv
+# 주어진 input data: data/20260509/notice_sample_v6_2_20260509.csv
 
 
 ★가장 중요한 핵심과제: 모델 성능 비교 (베이스라인 VS. 파인튜닝)★

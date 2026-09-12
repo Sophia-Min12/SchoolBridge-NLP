@@ -19,20 +19,20 @@ TF-IDF와 Logistic Regression은 가볍고, 빠르며, 연산 비용이 거의 �
 이건 "파인튜닝 효과 증명"이 아니라 "우리의 의사결정 과정이 합리적이었다"는 의미로 포지셔닝.
 
 참고파일 :
-1. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\notebooks\01_train_kcelectra_v1_2_20260430.ipynb
-2. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\notebooks\03_train_kcelectra_v2_2_20260509.ipynb
-3. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\notebooks\12_train_kcelectra_v3_2_20260509.ipynb
+1. notebooks/01_train_kcelectra_v1_2_20260430.ipynb
+2. notebooks/03_train_kcelectra_v2_2_20260509.ipynb
+3. notebooks/12_train_kcelectra_v3_2_20260509.ipynb
 
 4. 
-C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\notebooks\02_evaluate_compare_v1_2_20260430.ipynb
-5. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\notebooks\04_visualize_comparison_v2_2_20260509.ipynb
-6. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\notebooks\13_visualize_comparison_v3_2_20260509.ipynb
+notebooks/02_evaluate_compare_v1_2_20260430.ipynb
+5. notebooks/04_visualize_comparison_v2_2_20260509.ipynb
+6. notebooks/13_visualize_comparison_v3_2_20260509.ipynb
 
-7. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\data\20260509
+7. data/20260509
 
-8. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\data\20260503
+8. data/20260503
 
-9. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\data\20260430
+9. data/20260430
 -------------------------------------------------------------------------------------------------
 
 # 담당 기능 설명: 
@@ -41,35 +41,35 @@ C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\n
 
 # 입력/ 처리/ 출력 구조: 
 데이터 입력 관련 참고 파일: 
-1. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\data\20260509\notice_sample_v6_2_20260509.csv
-2. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\data\split_v3_1_20260509.csv
+1. data/20260509/notice_sample_v6_2_20260509.csv
+2. data/split_v3_1_20260509.csv
 3. 
-C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\scripts\auto_label_from_new_data_20260504.py
-4. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\scripts\auto_label_categories_v5_full.py
-5. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\docs\devlog_2026-05-04_자동라벨링.md
+scripts/auto_label_from_new_data_20260504.py
+4. multicultural-ai/scripts/auto_label_categories_v5_full.py
+5. docs/devlog_2026-05-04_자동라벨링.md
 ==> 수동 라벨링 보다 claude 자동 라벨링으로 진행.
 
 # 사용모델/구현 방식: - 핵심 기능:
 참고 파일: 
-1. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\notebooks\01_train_kcelectra_v1_2_20260430.ipynb
-2. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\notebooks\03_train_kcelectra_v2_2_20260509.ipynb
-3. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\notebooks\12_train_kcelectra_v3_2_20260509.ipynb
+1. notebooks/01_train_kcelectra_v1_2_20260430.ipynb
+2. notebooks/03_train_kcelectra_v2_2_20260509.ipynb
+3. notebooks/12_train_kcelectra_v3_2_20260509.ipynb
 
 # 정량 지표: -accuracy보다 macro F1 지표를 왜 사용했는지.
 참고 파일: 
 1. 
-C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\notebooks\02_evaluate_compare_v1_2_20260430.ipynb
-2. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\notebooks\04_visualize_comparison_v2_2_20260509.ipynb
-3. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\notebooks\13_visualize_comparison_v3_2_20260509.ipynb
+notebooks/02_evaluate_compare_v1_2_20260430.ipynb
+2. notebooks/04_visualize_comparison_v2_2_20260509.ipynb
+3. notebooks/13_visualize_comparison_v3_2_20260509.ipynb
 
 # 성공 사례: 
 1. 파인튜닝된 Kcelectra 모델이 베이스 모델보다 성능이 좋다는것을 입증. 맨 위에 제시된 # 각각의 목적이 다른 두가지 방법의 베이스라인 내용 보고 참조.
 
 # 실패 사례: 
 참고 파일:
-1. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\docs\devlog_2026-05-04_자동라벨링.md
-2. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\docs\devlog_20260510.md
+1. docs/devlog_2026-05-04_자동라벨링.md
+2. docs/devlog_20260510.md
 
 # 한계와 향후 개선점:
 참고 파일:
-1. C:\Users\kysop\Team_Project_Multiculture\multicultural-ai\model\classification\docs\devlog_20260510.md
+1. docs/devlog_20260510.md
